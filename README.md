@@ -26,6 +26,8 @@ Where *RXPin* and *TXPin* are pins which are used to connect bt module. Next you
 
 ## Available methods
 
+### Attention! The methods wokrs only if any device isn't connected to bluetooth module.
+
 `void waitTime(unsigned int time)`
 
 Set default value for *time* in other methods.
@@ -41,11 +43,16 @@ It available to set baudrate in bt module. In arduino you must do it manualy. Yo
 - 38400bps
 - 57600bps
 - 115200bps
+
 It return *true* if get respond, that baudrate was changed.
 
 `bool setDeviceName(String deviceName, unsigned int time);`
 
+Set device name. Returns *true* if get respond in set *time* (you don't have to set it here).
+
 `bool setPin(String Pin, unsigned int time);`
+
+Set bt PIN. Returns *true* if get respond in set *time* (you don't have to set it here).
 
 `String deviceVersion(unsigned int time);`
 
@@ -56,6 +63,8 @@ Return information about version of bt module.
 Reset bt module.
 
 `bool untilPlug(unsigned int time);`
+
+ Returns *true* if get respond.
 
 Until arduino doesn't get respond, that bt module is connected or blow over *time*, it waits.
 
