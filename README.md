@@ -26,7 +26,7 @@ Where *RXPin* and *TXPin* are pins which are used to connect bt module. Next you
 
 ## Available methods
 
-### Attention! The methods wokrs only if any device isn't connected to bluetooth module.
+### Attention! The methods works only if any bluetooth device isn't connected to bluetooth module.
 
 `void waitTime(unsigned int time)`
 
