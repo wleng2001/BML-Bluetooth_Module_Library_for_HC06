@@ -9,8 +9,10 @@ If you want use software serial you must first add library:
 `#include <SoftwareSerial.h>`
 and create object:
 `SoftwareSerial softS(RXPin, TXPin);`
-where *RXPin* and *TXPin* are pins which are used to connect bt module. Next you can create the library object.
+Where *RXPin* and *TXPin* are pins which are used to connect bt module. Next you can create the library object.
+
 `BML bml(softS);`
+
 ## Available methods
 `void waitTime(unsigned int time)`
 Set default value for *time* in other methods.
@@ -28,6 +30,7 @@ It available to set baudrate in bt module. In arduino you must do it manualy. Yo
 It return *true* if get respond, that baudrate was changed.
 
 `bool setDeviceName(String deviceName, unsigned int time);`
+
 `bool setPin(String Pin, unsigned int time);`
 
 `String deviceVersion(unsigned int time);`
