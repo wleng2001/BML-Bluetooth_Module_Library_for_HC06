@@ -1,0 +1,13 @@
+bml		KEYWORD1
+convertBaudrate	KEYWORD2
+waitForRespond	KEYWORD2
+reset		KEYWORD2
+unPlug		KEYWORD2
+untilPlug	KEYWORD2
+waitTime	KEYWORD2
+setDeviceName	KEYWORD2
+getDeviceName	KEYWORD2
+setPin		KEYWORD2
+getPin		KEYWORD2
+setBaudRate	KEYWORD2
+deviceVersion	KEYWORD2
