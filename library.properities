@@ -1,0 +1,11 @@
+name=BML-Bluetooth_Module_Library-library_for_HC06
+version=1.0.0
+author=Kamil Grodzki <kamilgrodzki5@gmail.com>
+maintainer=Kamil Grodzki <kamilgrodzki5@gmail.com>
+sentence=it's library for HC-06 bluetooth module library, which giva you a chance to configure your bt module.
+paragraph=More on the github webpage
+category=Communication
+url=https://github.com/wleng2001/BML-Bluetooth_Module_Library-library_for_HC06
+architectures=*
+includes=BML.h
+depends=arduino
